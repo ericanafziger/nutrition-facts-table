@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+table {
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 1.1em;
+  margin: 0 auto;
+}
+#wrapper {
+  padding: 10px;
+  border: 1px solid black;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+th:first-child {
+  font-size: 2em;
+  font-weight: bold;
+}
+tr:nth-child(2) {
+  border-bottom: 10px solid black;
+}
+.bold {
+  font-weight: bold;
+}
