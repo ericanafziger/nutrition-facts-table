@@ -9,7 +9,7 @@ table {
   border-collapse: collapse;
   text-align: left;
   font-size: 1.1em;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 #wrapper {
   padding: 10px;
@@ -22,9 +22,33 @@ th:first-child {
   font-size: 2em;
   font-weight: bold;
 }
-tr:nth-child(2) {
+tr:nth-child(2), tr:nth-child(14) {
   border-bottom: 10px solid black;
 }
 .bold {
   font-weight: bold;
+}
+
+tr:nth-child(n+3):nth-child(-n+13), tr:nth-child(n+15):nth-child(-n+16), tr:nth-child(18){
+  border-bottom: 1px solid black;
+}
+
+tr:nth-child(5) {
+  text-align: right;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+tr:nth-child(6) td:nth-child(2),tr:nth-child(7) td:nth-child(2), tr:nth-child(4) td:nth-child(2), tr:nth-child(n+9):nth-child(-n+12) td:nth-child(2){
+  text-align: right;
+}
+
+
+tr:nth-child(7), tr:nth-child(8), tr:nth-child(12), tr:nth-child(13), tr:nth-child(24) td:first-child, tr:nth-child(20) td:first-child {
+  text-indent: 20px;
+}
+
+
+tr:nth-child(n+17):nth-child(-n+24) {
+  font-size: 14px;
 }
