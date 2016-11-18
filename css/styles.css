@@ -9,6 +9,7 @@ table {
   border-collapse: collapse;
   text-align: left;
   font-size: 1.1em;
+  table-layout: fixed;
   /*margin: 0 auto;*/
 }
 #wrapper {
@@ -53,7 +54,7 @@ tr:nth-child(7), tr:nth-child(8), tr:nth-child(12), tr:nth-child(13), tr:nth-chi
   text-indent: 20px;
 }
 tr:nth-child(7) td:nth-child(1), tr:nth-child(8) td:nth-child(1) {
-  /*width: 1em;*/
+  /*width: 40px;*/
 }
 tr:nth-child(7) td:nth-child(2), tr:nth-child(7) td:nth-child(3), tr:nth-child(8) td:nth-child(2) {
   border-bottom: 1px solid black;
